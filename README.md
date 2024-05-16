@@ -23,7 +23,6 @@ df = pd.DataFrame({'ID':[1,2,3,4],
 - df.drop(columns="[Not_Useful_Column]") drop column ที่ไม่ใช้ ณ ที่นี้คือ column -> "Not_Useful_Column"
 - df.dropna(inplace=True) drop แถวที่มี missing value หรือ null
 - df.fillna(['']) fill data ที่ null ด้วย ''
-- df.replace()
 - df.sort_values('[Column_that_you_want_to_sort]', ascending = False) ตรง ascending false=มากไปน้อย true=น้อยไปมาก
 
 
