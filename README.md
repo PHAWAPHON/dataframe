@@ -124,6 +124,18 @@ data.to_csv("data.csv")
 
 # Pandas - Plotting
   การใช้ dataframe ร่วมกับ matplotib
+  
+## Scatter Plot
+```Python 
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('Salaries.csv')
+
+df.plot(kind='bar', x='sex', y='salary')
+
+plt.show()
+```
 
   
 ![My Image](https://github.com/PHAWAPHON/dataframe/issues/1#issue-2300567225.png)
