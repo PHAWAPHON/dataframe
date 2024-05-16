@@ -151,16 +151,14 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv('Salaries.csv')
 
-df.plot(kind='bar', x='sex', y='salary')
+df.plot(kind='scatter', x='sex', y='salary')
 
 plt.show()
 ```
-
 `ผลลัพธ์`
-<br>
-![My Image](https://camo.githubusercontent.com/f57eaa260faffca4cf03dd6930d41571dadb68d175ac7f4a25bc6fad877b2fbf/68747470733a2f2f696d6775722e636f6d2f3032394c7070792e706e67)
-<br>
+![Figure_2](https://github.com/PHAWAPHON/dataframe/assets/87028272/f1a10894-8e14-4a61-80bc-9acb6086e11c)
 
+## Histogram
 ```Python 
 import pandas as pd
 import matplotlib.pyplot as plt
