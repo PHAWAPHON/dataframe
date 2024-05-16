@@ -89,7 +89,7 @@ clean_data = data.dropna()
 print(data.isnull())
 ```
 ### วิธีเช็คข้อมูล ที่เป็น Null ในไฟล์ทั้งหมด
--.isnull().sum()
+- .isnull().sum()
 ```Python 
 data.isnull().sum()
 ```
