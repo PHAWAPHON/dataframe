@@ -36,13 +36,15 @@ df = pd.DataFrame({'ID':[1,2,3,4],
 ```
 - .dropna()
 ```Python
-- df.dropna(inplace=True) drop แถวที่มี missing value หรือ null
+- df.dropna(inplace=True) #drop แถวที่มี missing value หรือ null
 ```
+- .fillna()
 ```Python
-- df.fillna(['']) fill data ที่ null ด้วย ''
+- df.fillna(['']) #fill data ที่ null ด้วย ''
 ```
+- .sort_values()
 ```Python
-- df.sort_values('[Column_that_you_want_to_sort]', ascending = False) ตรง ascending false=มากไปน้อย true=น้อยไปมาก
+- df.sort_values('[Column_that_you_want_to_sort]', ascending = False) #ตรง ascending false=มากไปน้อย true=น้อยไปมาก
 ```
 
 ## คำสั่งของ Pandas ที่ใช้บ่อยๆ
