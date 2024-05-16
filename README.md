@@ -237,3 +237,7 @@ print(random.randint(0,99))
 
 
 
+# Pandas - Plotting
+  การใช้ dataframe ร่วมกับ matplotib
+
+  
