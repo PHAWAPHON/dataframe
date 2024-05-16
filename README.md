@@ -234,4 +234,4 @@ print(random.randint(0,99))
 4.cleaning data 
 5.plotting 
 
-##คำสั่งของ Pandas ที่ใช้บ่อยๆ
+## คำสั่งของ Pandas ที่ใช้บ่อยๆ
