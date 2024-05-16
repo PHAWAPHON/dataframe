@@ -231,3 +231,7 @@ print(random.randint(0,99))
 3.read json
 4.cleaning data 
 5.plotting 
+
+
+
+
