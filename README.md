@@ -100,7 +100,7 @@ data.isnull().sum()
 print(data.query("max_speed<2"))
 ```
 ### การ join ขอมูลด้วยคำสั่ง
--.merge(table1, table2, left_on=”column table1”, right_on=”column table2”, how=”รูปแบบการ join”)
+- .merge(table1, table2, left_on=”column table1”, right_on=”column table2”, how=”รูปแบบการ join”)
 #### รูปแบบการ join นั้นแบ่งออกเป็น
 
 #### ”inner” = innerjoin
