@@ -250,6 +250,90 @@ print(random.randint(0,99))
 import pandas as pd
 data = pd.read_csv('Example.csv')
 ```
+### การดูข้อมูลจากแถวบนสุด
+#### .head
+```Python 
+data.head()
+```
+### การดูข้อมูลจากแถวล่างสุด
+#### .head
+```Python 
+data.tail()
+```
+### การเช็คความผิดปกติใน Data Frame
+#### .info()
+```Python 
+data.info()
+```
+### การแปลงชนิดของข้อมูล
+#### .astype(‘ชนิดของข้อมูลที่ต้องการ’)
+```Python 
+df['A'] = df['A'].astype(int)
+```
+### การหาค่า (count, mean ,std ,min ,25% ,50% ,75%, max)ของข้อมูลแต่ละ column
+#### .describe()
+```Python 
+data.describe()
+```
+### วิธีลบค่าที่เป็นmissing values
+#### .dropna()
+```Python 
+clean_data = data.dropna()
+```
+### วิธีเช็คข้อมูล ที่เป็น Null
+#### .isnull()
+```Python 
+print(data.isnull())
+```
+### วิธีเช็คข้อมูล ที่เป็น Null ในไฟล์ทั้งหมด
+#### .isnull().sum()
+```Python 
+data.isnull().sum()
+```
+### วิธีกรองข้อมูลแบบมีเงื่อนไข
+#### .query(‘เงื่อนไขที่ต้องการ’)
+```Python 
+print(data.query("max_speed<2"))
+```
+### การ join ขอมูลด้วยคำสั่ง
+#### .merge(table1, table2, left_on=”column table1”, right_on=”column table2”, how=”รูปแบบการ join”)
+#### รูปแบบการ join นั้นแบ่งออกเป็น
+
+#### ”inner” = innerjoin
+
+#### “outer” = outer join
+
+#### “left” = left join
+
+#### “right” = right join
+```Python 
+df3 = pd.merge(df,df.T,Left_on="max_speed",right_on="type",how = "inner")
+```
+### การหาค่า mean, max , sum (aggregate)ทั้ง dataframe
+#### .agg()
+```Python 
+print(data.agg("sum","max",mean))
+```
+### การหาค่าข้อมูลที่ไม่ซ้ำกันในแต่ละ column
+#### .unique()
+```Python 
+print(data['max_speed'].unique())
+```
+### การหาข้อมูลที่ซ้ำในตาราง
+#### .duplicated()
+```Python 
+print(data['max_speed'].duplicated())
+```
+### การแทนค่าข้อมูลในตาราง
+#### .replace()
+```Python 
+df2 = df..replace(1,523)
+```
+### การเขียนไฟล์
+#### .to_csv()
+```Python 
+data.to_csv("data.csv")
+```
 
 
 
