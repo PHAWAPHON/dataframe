@@ -19,21 +19,28 @@ df = pd.DataFrame({'ID':[1,2,3,4],
 - df.loc[row(string)] เรียกดูช่องตาม string
 
  ### clean data pandas
- - .isnull()
+.isnull()
  ```Python
 - df.isnull() #เช็คว่ามี data ที่ null รึเปล่า
 ```
 ```Python
-- df.drop_duplicates(inplace=True) drop แถวที่ซ้ำกัน
+- df.drop_duplicates(inplace=True) #drop แถวที่ซ้ำกัน
 ```
 ![dup1](https://github.com/PHAWAPHON/dataframe/assets/141826630/91aff3aa-5d68-4e9c-a604-6c6fe8bf9543)
 ![dup2](https://github.com/PHAWAPHON/dataframe/assets/141826630/ff5971a4-78a2-48b8-a222-254d60d12fef)
-
+.drop
+```Python
 - df.drop(columns="[Not_Useful_Column]") drop column ที่ไม่ใช้ ณ ที่นี้คือ column -> "Not_Useful_Column"
+```
+```Python
 - df.dropna(inplace=True) drop แถวที่มี missing value หรือ null
+```
+```Python
 - df.fillna(['']) fill data ที่ null ด้วย ''
+```
+```Python
 - df.sort_values('[Column_that_you_want_to_sort]', ascending = False) ตรง ascending false=มากไปน้อย true=น้อยไปมาก
-
+```
 
 ## คำสั่งของ Pandas ที่ใช้บ่อยๆ
 ### การอ่านไฟล์ CSV
