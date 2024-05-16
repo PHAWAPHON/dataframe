@@ -179,6 +179,6 @@ plt.xticks(rotation=45)
 
 # แสดงกราฟ
 plt.show()
-``
+```
 `ผลลัพธ์`
 ![Figure_1](https://github.com/PHAWAPHON/dataframe/assets/87028272/f996582e-b7b8-4baf-b005-227aa4f8e947)
