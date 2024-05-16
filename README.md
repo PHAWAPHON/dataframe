@@ -142,8 +142,21 @@ data.to_csv("data.csv")
 
 
 # Pandas - Plotting
-  การใช้ dataframe ร่วมกับ matplotib
-  
+  การใช้ dataframe ร่วมกับ matplotib ในการสร้าง graph ต่าง ๆ
+## Plotting
+```Python 
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('Salaries.csv')
+
+df.plot()
+
+plt.show()
+```
+`ผลลัพธ์`
+![Figure_3](https://github.com/PHAWAPHON/dataframe/assets/87028272/2ebd3d45-8f48-4f3f-b222-62b1f103040d)
+
 ## Scatter Plot
 ```Python 
 import pandas as pd
