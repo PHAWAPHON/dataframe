@@ -2,7 +2,8 @@
 Pandas เป็น lib ของ python 
 Dataframe คือ datastructure ที่มีลักษณะคล้ายตาราง excel ที่มี row column เป็นแถวๆรวมกัน
 วิธีใช้
-'''python
+ `Example`
+''' python
 import pandas as pd
 pd.DataFrame({'ID':[1,2,3,4],
               'name':[a,b,c,d]})
