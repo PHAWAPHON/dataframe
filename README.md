@@ -126,4 +126,4 @@ data.to_csv("data.csv")
   การใช้ dataframe ร่วมกับ matplotib
 
   
-![My Image](E:\dataframe\image\scatter.png)
+![My Image](https://github.com/PHAWAPHON/dataframe/issues/1#issue-2300567225)
