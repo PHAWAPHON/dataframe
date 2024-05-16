@@ -234,6 +234,14 @@ print(random.randint(0,99))
 4.cleaning data 
 5.plotting 
 
+## คำสั่งของ Pandas ที่ใช้บ่อยๆ
+### การอ่านไฟล์ CSV
+#### .read_csv("ชื่อไฟล์")
+```Python 
+import pandas as pd
+data = pd.read_csv('Example.csv')
+```
+
 
 
 
