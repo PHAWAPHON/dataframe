@@ -256,7 +256,7 @@ data = pd.read_csv('Example.csv')
 data.head()
 ```
 ### การดูข้อมูลจากแถวล่างสุด
-#### .head
+#### .tail
 ```Python 
 data.tail()
 ```
