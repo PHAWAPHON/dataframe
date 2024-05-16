@@ -258,4 +258,4 @@ data = pd.read_csv('Example.csv')
   การใช้ dataframe ร่วมกับ matplotib
 
   
-![My Image](.\scatter.png)
+![My Image](E:\dataframe\image\scatter.png)
