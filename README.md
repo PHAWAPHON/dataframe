@@ -176,20 +176,12 @@ plt.show()
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# อ่านข้อมูลจากไฟล์ CSV
 df = pd.read_csv('Salaries.csv')
 
-# สร้างกราฟ histogram ของคอลัมน์ "salary"
-plt.figure(figsize=(10, 6))
-plt.hist(df["salary"], bins=30, edgecolor='black', alpha=0.7)
-plt.title('Salary Distribution')
-plt.xlabel('Salary')
-plt.ylabel('Frequency')
-plt.grid(True, linestyle='--', alpha=0.7)
-plt.xticks(rotation=45)
+df["salary"].plot(kind = 'hist')
 
-# แสดงกราฟ
 plt.show()
 ```
 `ผลลัพธ์`
-![Figure_1](https://github.com/PHAWAPHON/dataframe/assets/87028272/f996582e-b7b8-4baf-b005-227aa4f8e947)
+![Figure_4](https://github.com/PHAWAPHON/dataframe/assets/87028272/35de9273-5610-43ca-aa0a-7a31cfb81959)
+
