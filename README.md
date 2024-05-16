@@ -21,6 +21,7 @@ df = pd.DataFrame({'ID':[1,2,3,4],
  ### clean data pandas
 - df.isnull() เช็คว่ามี data ที่ null รึเปล่า
 - df.drop_duplicates(inplace=True) drop แถวที่ซ้ำกัน
+![dup1](https://github.com/PHAWAPHON/dataframe/assets/141826630/91aff3aa-5d68-4e9c-a604-6c6fe8bf9543)
 - df.drop(columns="[Not_Useful_Column]") drop column ที่ไม่ใช้ ณ ที่นี้คือ column -> "Not_Useful_Column"
 - df.dropna(inplace=True) drop แถวที่มี missing value หรือ null
 - df.fillna(['']) fill data ที่ null ด้วย ''
