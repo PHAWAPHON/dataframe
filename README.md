@@ -2,7 +2,6 @@
 Pandas เป็น lib ของ python 
 Dataframe คือ datastructure ที่มีลักษณะคล้ายตาราง excel ที่มี row column เป็นแถวๆรวมกัน
 วิธีใช้
- `Example`
 ### python
 ``` python
 import pandas as pd
@@ -11,6 +10,9 @@ pd.DataFrame({'ID':[1,2,3,4],
 ```
 
 ตัว ID,name เป็นหัวข้อcolumn
+
+
+
 ## เนื้อหาในหัวข้อนี้ ##
 - การสุ่มตัวเลขด้วยคลาส Random
 - การสุ่มตัวเลขจาก 1-100
