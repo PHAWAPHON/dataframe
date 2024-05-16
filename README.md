@@ -160,3 +160,26 @@ plt.show()
 <br>
 ![My Image](https://camo.githubusercontent.com/f57eaa260faffca4cf03dd6930d41571dadb68d175ac7f4a25bc6fad877b2fbf/68747470733a2f2f696d6775722e636f6d2f3032394c7070792e706e67)
 <br>
+
+```Python 
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# อ่านข้อมูลจากไฟล์ CSV
+df = pd.read_csv('Salaries.csv')
+
+# สร้างกราฟ histogram ของคอลัมน์ "salary"
+plt.figure(figsize=(10, 6))
+plt.hist(df["salary"], bins=30, edgecolor='black', alpha=0.7)
+plt.title('Salary Distribution')
+plt.xlabel('Salary')
+plt.ylabel('Frequency')
+plt.grid(True, linestyle='--', alpha=0.7)
+plt.xticks(rotation=45)
+
+# แสดงกราฟ
+plt.show()
+``
+`ผลลัพธ์`
+
+![Figure_1](https://github.com/PHAWAPHON/dataframe/assets/87028272/f996582e-b7b8-4baf-b005-227aa4f8e947)
