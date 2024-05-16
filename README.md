@@ -49,7 +49,7 @@ df = pd.DataFrame({'ID':[1,2,3,4],
 
 ## คำสั่งของ Pandas ที่ใช้บ่อยๆ
 ### การอ่านไฟล์ CSV
-#### .read_csv("ชื่อไฟล์")
+- .read_csv("ชื่อไฟล์")
 ```Python 
 import pandas as pd
 data = pd.read_csv('Example.csv')
