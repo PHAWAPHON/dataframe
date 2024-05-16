@@ -19,7 +19,10 @@ df = pd.DataFrame({'ID':[1,2,3,4],
 - df.loc[row(string)] เรียกดูช่องตาม string
 
  ### clean data pandas
-- df.isnull() เช็คว่ามี data ที่ null รึเปล่า
+ - .isnull()
+ ```Python
+- df.isnull() #เช็คว่ามี data ที่ null รึเปล่า
+```
 ```Python
 - df.drop_duplicates(inplace=True) drop แถวที่ซ้ำกัน
 ```
