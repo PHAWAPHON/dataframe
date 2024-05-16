@@ -226,29 +226,8 @@ print(random.randint(0,99))
 > 
 > ❗❗ แต่ในภาษา C จะต้องนำตัวเลขมา % ข้างหลังเพื่อกำหนดค่าสิ้นสุดที่สามารถสุ่มได้ ❗❗
 
-## Link Slide : 
-- [Generate_Random_Number_640710974.pdf](https://github.com/soonklang/dart-tutorial/files/13046312/Generate_Random_Number_640710974.pdf)
-- [Generate_Random_Number_640710974 (1).pptx](https://github.com/soonklang/dart-tutorial/files/13049407/Generate_Random_Number_640710974.1.pptx)
-
-Link Video : [Generate Random Number Video](https://youtu.be/F55rFfzL85Y)
-
-## Reference
-[Random class - dart:math library - Dart API](https://api.dart.dev/stable/3.1.0/dart-math/Random-class.html)
-<br>
-[Generate Random Number - Dart Tutorial](https://dart-tutorial.com/dart-how-to/generate-random-number-in-dart/)
-<br>
-[Dart/Flutter - Generate Random Number Examples](https://www.woolha.com/tutorials/dart-generate-random-number-examples)
-<br>
-[Generating random numbers in Java](https://www.geeksforgeeks.org/generating-random-numbers-in-java/)
-<br>
-[Random Function in C - javatpoint](https://www.javatpoint.com/random-function-in-c#:~:text=In%20the%20C%20programming%20language,need%20to%20implement%20the%20stdlib.)
-<br>
-[Python Program to Generate a Random Number](https://www.programiz.com/python-programming/examples/random-number)
-<br>
-[java.util.Random (Java Platform SE 8 ) (oracle.com)](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html)
-<br>
-[dart:math - math and random](https://dart.dev/guides/libraries/library-tour#math-constants)
-<br>
-[Random — Python 3.11.5 documentation](https://docs.python.org/3/library/random.html)
-<br>
-[ISO Random (The GNU C Library)](https://www.gnu.org/software/libc/manual/html_node/ISO-Random.html)
+1.dataframe
+2.read csv
+3.read json
+4.cleaning data 
+5.plotting 
