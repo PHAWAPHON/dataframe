@@ -10,6 +10,9 @@ pd.DataFrame({'ID':[1,2,3,4],
 ```
 
 ตัว ID,name เป็นหัวข้อcolumn
+> คำสั่งอื่นๆ
+- pd.head([int]) เรียกด้านบนของตารางมาดูตาม parameters
+- 
 
 
 
