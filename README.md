@@ -32,7 +32,7 @@ df = pd.DataFrame({'ID':[1,2,3,4],
 .drop
 - .drop()
 ```Python
-- df.drop(columns="[Not_Useful_Column]") drop column ที่ไม่ใช้ ณ ที่นี้คือ column -> "Not_Useful_Column"
+- df.drop(columns="[Not_Useful_Column]") #drop column ที่ไม่ใช้ ณ ที่นี้คือ column -> "Not_Useful_Column"
 ```
 - .dropna()
 ```Python
