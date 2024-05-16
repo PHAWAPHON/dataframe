@@ -17,6 +17,15 @@ df = pd.DataFrame({'ID':[1,2,3,4],
 - df.loc[row(int)] , df.loc[row(int),col(int)] เรียกดูตาม row กับ col ที่ใส้
 - df.loc[row(string)] เรียกดูช่องตาม string
 
+ ### clean data pandas
+- df.isnull() เช็คว่ามี data ที่ null รึเปล่า
+- df.drop_duplicates(inplace=True) drop แถวที่ซ้ำกัน
+- df.drop(columns="[Not_Useful_Column]") drop column ที่ไม่ใช้ ณ ที่นี้คือ column -> "Not_Useful_Column"
+- df.dropna(inplace=True) drop แถวที่มี missing value หรือ null
+- df.fillna(['']) fill data ที่ null ด้วย ''
+- df.replace()
+- df.sort_values('[Column_that_you_want_to_sort]', ascending = False) ตรง ascending false=มากไปน้อย true=น้อยไปมาก
+
 
 
 ## เนื้อหาในหัวข้อนี้ ##
