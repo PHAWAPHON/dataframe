@@ -126,4 +126,4 @@ data.to_csv("data.csv")
   การใช้ dataframe ร่วมกับ matplotib
 
   
-![My Image](https://github.com/PHAWAPHON/dataframe/issues/1#issue-2300567225.png)
+![My Image](https://camo.githubusercontent.com/f57eaa260faffca4cf03dd6930d41571dadb68d175ac7f4a25bc6fad877b2fbf/68747470733a2f2f696d6775722e636f6d2f3032394c7070792e706e67)
