@@ -237,3 +237,7 @@ print(random.randint(0,99))
 ## คำสั่งของ Pandas ที่ใช้บ่อยๆ
 ### การอ่านไฟล์ CSV
 #### .read_csv("ชื่อไฟล์")
+```Python 
+import random
+print(random.randint(0,99))
+```
