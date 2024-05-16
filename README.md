@@ -29,7 +29,6 @@ df = pd.DataFrame({'ID':[1,2,3,4],
 ```
 ![dup1](https://github.com/PHAWAPHON/dataframe/assets/141826630/91aff3aa-5d68-4e9c-a604-6c6fe8bf9543)
 ![dup2](https://github.com/PHAWAPHON/dataframe/assets/141826630/ff5971a4-78a2-48b8-a222-254d60d12fef)
-.drop
 - .drop()
 ```Python
 - df.drop(columns="[Not_Useful_Column]") #drop column ที่ไม่ใช้ ณ ที่นี้คือ column -> "Not_Useful_Column"
