@@ -33,21 +33,21 @@ engine = create_engine('sqlite:///database.db')
 df = pd.read_sql('table_name', engine)
 ```
 # จัดยังไง
-## การเรียงลำดับ DataFrame โดยใช้เมธอดsort_values()
+## 1.การเรียงลำดับ DataFrame โดยใช้เมธอดsort_values()
 ```python
 student.sort_values(by=['Score'], ascending=True)
 ```
 - ascending=True เรียงจากมากไปน้อย
 - ascending=False เรียงจากน้อยไปมาก
-## การจัดกลุ่มข้อมูลและคำนวณค่าเฉลี่ย โดยใข้เมธอด.groupby('column1').mean()
+## 2.การจัดกลุ่มข้อมูลและคำนวณค่าเฉลี่ย โดยใข้เมธอด.groupby('column1').mean()
 ```python
 grouped_df = df.groupby('column1').mean()
 ```
-## การจัดกลุ่มข้อมูลและนับจำนวน โดยใข้เมธอด.groupby('column1').size()
+## 3.การจัดกลุ่มข้อมูลและนับจำนวน โดยใข้เมธอด.groupby('column1').size()
 ```python
 grouped_df = df.groupby('column1').size()
 ```
-## การจัดกลุ่มข้อมูลและรวมค่า โดยใข้เมธอด.groupby('column1').sum()
+## 4.การจัดกลุ่มข้อมูลและรวมค่า โดยใข้เมธอด.groupby('column1').sum()
 ```python
 grouped_df = df.groupby('column1').sum()
 ```
