@@ -33,6 +33,12 @@ engine = create_engine('sqlite:///database.db')
 df = pd.read_sql('table_name', engine)
 ```
 # จัดยังไง
+## การเรียงลำดับ DataFrame โดยใช้เมธอดsort_values()
+```python
+student.sort_values(by=['Score'], ascending=True)
+```
+- ascending=True เรียงจากมากไปน้อย
+- ascending=False เรียงจากน้อยไปมาก
 # ข้อมูลเยอะจัดไง
 - ใช้การกำหนด chunksize ช่วยเพื่อไม่ต้องให้program อ่าน data ภายในทีเดียวแต่จะแบ่งเป็น chunk แทน
 # จุดประสงค์ของการใช้ pandas ทำไมภึงใช้ lib นี้ดีกว่าอันอื่นยังไง
