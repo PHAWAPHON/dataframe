@@ -231,3 +231,6 @@ plt.show()
 `ผลลัพธ์`
 ![Figure_4](https://github.com/PHAWAPHON/dataframe/assets/87028272/35de9273-5610-43ca-aa0a-7a31cfb81959)
 
+![image](https://github.com/PHAWAPHON/dataframe/assets/87028272/f70ed9ea-18d5-4218-b02e-f47ed5545b8e)
+
+
