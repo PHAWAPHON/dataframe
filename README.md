@@ -67,6 +67,12 @@ grouped_df = df.groupby('column1').sum()
 - Pandas สามารถทำงานร่วมกับไลบรารีอื่นๆ เช่น NumPy สำหรับการคำนวณเชิงตัวเลข SciPy สำหรับการคำนวณเชิงวิทยาศาสตร์ และ Scikit-Learn สำหรับการเรียนรู้ของเครื่อง
 ทำให้ Pandas เป็นเครื่องมือที่เหมาะกับงานdata scienceและdata analytics
 
+#ข้อเสีย
+- มี learning curve ที่สูงใช้เวลาศึกษาค่อยข้างมาก
+- ไม่เหมาะกับ data ประเภท massive และ unstructured
+- documentation ของ lib นี้ค่อนข้างแย่
+- ใช้กับ api ได้ไม่ค่อยต่อเนื่อง
+- 
 # Pandas vs NumPy, PySpark, and other alternatives
 ![image](https://github.com/PHAWAPHON/dataframe/assets/87028272/f70ed9ea-18d5-4218-b02e-f47ed5545b8e)
 
