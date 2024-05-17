@@ -49,7 +49,7 @@ df = pd.read_sql('table_name', engine)
 - Pandas สามารถทำงานร่วมกับไลบรารีอื่นๆ เช่น NumPy สำหรับการคำนวณเชิงตัวเลข SciPy สำหรับการคำนวณเชิงวิทยาศาสตร์ และ Scikit-Learn สำหรับการเรียนรู้ของเครื่อง
 ทำให้ Pandas เป็นเครื่องมือที่เหมาะกับงานdata scienceและdata analytics
 
-## Pandas vs NumPy, PySpark, and other alternatives
+# Pandas vs NumPy, PySpark, and other alternatives
 ![image](https://github.com/PHAWAPHON/dataframe/assets/87028272/f70ed9ea-18d5-4218-b02e-f47ed5545b8e)
 
 
